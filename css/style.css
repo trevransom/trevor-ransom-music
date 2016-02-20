@@ -1,12 +1,40 @@
 body { 
-	padding-top:50px; 
-	background: url('../img/walk_into_gray.jpg')no-repeat center center fixed;
+	background: url('../img/original_color.jpg')no-repeat center center fixed;
 	-webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
 }
 
-.home {
+.navbar-nav > li {
+    float:none;
+    display:inline-block;
+}
 
+
+.menu-color a {
+    color: black;
+}
+
+.socials {
+    position: fixed;
+    padding: 1em;
+    bottom: 0;
+    right: 0;
+}
+
+.socials a {
+    color: white;
+}
+
+.outer {
+    display: table;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+}
+
+.inner {
+    display: table-cell;
+    vertical-align: middle;
 }
