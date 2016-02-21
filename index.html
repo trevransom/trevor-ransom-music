@@ -5,10 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Latest compiled and minified CSS -->
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
-    <!-- <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,300' rel='stylesheet' type='text/css'> -->
     <link href="css/style.css" rel="stylesheet" />
+
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,300' rel='stylesheet' type='text/css'>
+    
     <link href="https://file.myfontastic.com/EHCKxPdW8d4Gfw38q4LqKo/icons.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
 
@@ -24,7 +27,7 @@
   <nav class="menu-color navbar navbar-fixed-top" role="navigation">
     <div class="container">
       <ul class="nav navbar-nav navbar-right">
-        <li ng-class="navClass('home')"><a href='' ng-click="loadHome()">Trevor Ransom</a></li>
+        <li ng-class="navClass('home')"><a href='' ng-click="loadHome()">Home</a></li>
         <li ng-class="navClass('sounds')"><a href='' ng-click="loadSounds()">Sounds</a></li>
         <li ng-class="navClass('videos')"><a href='' ng-click="loadVideos()">Videos</a></li>
       </ul>
@@ -33,9 +36,7 @@
   
   <div ng-view></div>
 
-
   <div class="container-fluid">
-    
     <div class="row">
       <div class="col-sm-4 col-sm-offset-8">
         <ul class="socials list-unstyled list-inline">
@@ -44,18 +45,20 @@
           <li><a class="icon-instagram" href="#"></a></li>
           <li><a class="icon-soundcloud" href="#"></a></li>
           <li><a class="icon-tumblr" href="#"></a></li>
+          <li><a class="icon-spotify" href="http://smarturl.it/glimpses_spotify"></a></li>
         </ul>
       </div>
-    <!-- </div> -->
     </div>
   </div>
+
+
 
   <!-- Modules -->
   <script src="js/directives/app.js"></script>
 
   <!-- Controllers -->
   <script src="js/controllers/HomeController.js"></script>
-  <!-- // <script src="js/controllers/PhotoController.js"></script> -->
+
   </body>
 </html>
 

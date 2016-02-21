@@ -4,7 +4,7 @@ app.config(function ($routeProvider, $locationProvider, $httpProvider) {
 
   $routeProvider.when('/home',
   {
-    templateUrl:    'home.html',
+    templateUrl:    'views/home.html',
     controller:     'HomeCtrl'
   });
   $routeProvider.when('/sounds',

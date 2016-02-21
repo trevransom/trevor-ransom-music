@@ -4,13 +4,67 @@ body {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+
+    font-family: Roboto;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+
+@media (max-width: 768px) {
+.navbar-right {
+    /*float: righ/*t*/
+    margin-right: -15px;
+    text-align: center;
+}
 }
 
 .navbar-nav > li {
     float:none;
     display:inline-block;
+    padding: 0 10px;
+    
 }
 
+.navbar-nav > li a:hover {
+    background-color: transparent !important;
+    /*border-bottom: 1px solid black;*/
+    text-decoration: none;
+}
+
+.navbar-nav > li a:after {
+    content: '';
+    display: block;
+    margin: auto;
+    height: 2px;
+    width: 0px;
+    background: transparent;
+    transition: width .5s ease, background-color .5s ease;
+}
+
+
+
+.navbar-nav > li a:hover:after {
+    width: 100%;
+    background: black;
+}
+
+
+.nav > li a {
+    padding: 15px 0 8px;
+    text-transform: uppercase;
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+    background-color: transparent !important;
+}
+
+.menu-color .active a {
+    color: #A94337;
+    /*border-bottom: 1px solid black; */
+}
 
 .menu-color a {
     color: black;
