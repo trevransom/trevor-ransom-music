@@ -1,9 +1,5 @@
 body { 
-<<<<<<< HEAD
-	background: url('../img/original_color.jpg')no-repeat center center fixed;
-=======
-	background: url('https://raw.githubusercontent.com/trevransom/trevor-ransom-music/gh-pages/img/original_color.JPG')no-repeat center center fixed;
->>>>>>> gh-pages
+    background: url('https://raw.githubusercontent.com/trevransom/trevor-ransom-music/gh-pages/img/original_color.JPG')no-repeat center center fixed;
 	-webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
