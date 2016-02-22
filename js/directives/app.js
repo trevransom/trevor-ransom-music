@@ -23,4 +23,6 @@ app.config(function ($routeProvider, $locationProvider, $httpProvider) {
     controller:     'HomeCtrl', 
   }
   );
+
+  $locationProvider.html5Mode(true);
 });
