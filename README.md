@@ -1,2 +1,2 @@
 # trevor-ransom-music
-Website for my music
+Website created to learn AngularJS and practice Bootstrap
